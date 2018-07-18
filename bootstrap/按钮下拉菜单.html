@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h1>分割的按钮下拉菜单</h1>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">默认</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">切换下来菜单</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a href="#">功能</a>
+            </li>
+            <li>
+                <a href="#">另一个功能</a>
+            </li>
+            <li>
+                <a href="#">其他</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">分离的链接</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">原始</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">切换下拉菜单</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a href="#">功能</a>
+            </li>
+            <li>
+                <a href="#">另一个功能</a>
+            </li>
+            <li>
+                <a href="#">其他</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">分离的链接</a>
+            </li>
+        </ul>
+    </div>
+    <h1>按钮上拉菜单</h1>
+    <div class="row" style="margin-left:50px; margin-top:200px">
+            <div class="btn-group dropup">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">默认
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="#">功能</a>
+                    </li>
+                    <li>
+                        <a href="#">另一个功能</a>
+                    </li>
+                    <li>
+                        <a href="#">其他</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">分离的链接</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group dropup">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">原始
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="#">功能</a>
+                    </li>
+                    <li>
+                        <a href="#">另一个功能</a>
+                    </li>
+                    <li>
+                        <a href="#">其他</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">分离的链接</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+</body>
+
+</html>
